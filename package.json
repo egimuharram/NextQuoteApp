@@ -1,0 +1,41 @@
+{
+  "name": "firstapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "expo": "^27.0.1",
+    "native-base": "^2.4.3",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-maps-directions": "^1.6.0",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-sound-player": "^0.3.0",
+    "react-native-vector-icons": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assests/fonts/"
+    ]
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
